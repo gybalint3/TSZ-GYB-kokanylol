@@ -16,5 +16,10 @@ namespace TSZ_GYB_kokanylol
         {
             InitializeComponent();
         }
+
+        private void button_kilepes_Click(object sender, EventArgs e)
+        {
+            Form1.ActiveForm.Close();
+        }
     }
 }
