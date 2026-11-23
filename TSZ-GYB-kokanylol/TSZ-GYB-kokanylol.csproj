@@ -67,6 +67,44 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="imgs\boots\berserkers.webp" />
+    <None Include="imgs\boots\csoroboots.webp" />
+    <None Include="imgs\boots\greedygreaves.webp" />
+    <None Include="imgs\boots\ionian.webp" />
+    <None Include="imgs\boots\mercs.webp" />
+    <None Include="imgs\boots\ninjatabis.webp" />
+    <None Include="imgs\boots\sorcshoes.webp" />
+    <None Include="imgs\boots\swiftys.webp" />
+    <None Include="imgs\lega\adc\40px-Immortal_Shieldbow_item.webp" />
+    <None Include="imgs\lega\adc\40px-Lord_Dominik%27s_Regards_item.webp" />
+    <None Include="imgs\lega\adc\40px-Runaan%27s_Hurricane_item.webp" />
+    <None Include="imgs\lega\adc\40px-Stormrazor_item.webp" />
+    <None Include="imgs\lega\adc\40px-Terminus_item.webp" />
+    <None Include="imgs\lega\adc\40px-The_Collector_item.webp" />
+    <None Include="imgs\lega\mage\40px-Cryptbloom_item.webp" />
+    <None Include="imgs\lega\mage\40px-Rod_of_Ages_item.webp" />
+    <None Include="imgs\lega\mage\40px-Rylai%27s_Crystal_Scepter_item.webp" />
+    <None Include="imgs\lega\mage\40px-Stormsurge_item.webp" />
+    <None Include="imgs\lega\mage\40px-Void_Staff_item.webp" />
+    <None Include="imgs\lega\mage\40px-Whispering_Circlet_item.webp" />
+    <None Include="imgs\lega\mage\40px-Zhonya%27s_Hourglass_item.webp" />
+    <None Include="imgs\lega\tank\40px-Dead_Man%27s_Plate_item.webp" />
+    <None Include="imgs\lega\tank\40px-Frozen_Heart_item.webp" />
+    <None Include="imgs\lega\tank\40px-Heartsteel_item.webp" />
+    <None Include="imgs\lega\tank\40px-Hollow_Radiance_item.webp" />
+    <None Include="imgs\lega\tank\40px-Sunfire_Aegis_item.webp" />
+    <None Include="imgs\lega\tank\40px-Thornmail_item.webp" />
+    <None Include="imgs\lega\tank\40px-Unending_Despair_item.webp" />
+    <None Include="imgs\lega\tank\40px-Warmog%27s_Armor_item.webp" />
+    <None Include="imgs\lolhattér próba.webp" />
+    <None Include="imgs\starteritems\40px-Dark_Seal_item.webp" />
+    <None Include="imgs\starteritems\dblade.webp" />
+    <None Include="imgs\starteritems\dbow.webp" />
+    <None Include="imgs\starteritems\dhelm.webp" />
+    <None Include="imgs\starteritems\dring.webp" />
+    <None Include="imgs\starteritems\dshield.webp" />
+    <None Include="imgs\starteritems\keksmite.webp" />
+    <None Include="imgs\starteritems\pirossmite.webp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,6 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\aram_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imgs\lega\adc\40px-Yun_Tal_Wildarrows_item.png" />
+    <Content Include="imgs\starteritems\zodsmite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
