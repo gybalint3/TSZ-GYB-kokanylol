@@ -122,7 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imgs\lega\adc\40px-Yun_Tal_Wildarrows_item.png" />
+    <None Include="imgs\proba2.jpg" />
     <Content Include="imgs\starteritems\zodsmite.png" />
+    <None Include="Resources\proba2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
