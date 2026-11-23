@@ -119,11 +119,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\aram_bg.jpg" />
+    <None Include="imgs\aram_bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="imgs\lega\adc\40px-Yun_Tal_Wildarrows_item.png" />
     <Content Include="imgs\starteritems\zodsmite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
