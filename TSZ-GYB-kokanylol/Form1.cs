@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace TSZ_GYB_kokanylol
 {
@@ -15,6 +17,7 @@ namespace TSZ_GYB_kokanylol
         public Form1()
         {
             InitializeComponent();
+            string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "imgs", "lolhattér próba.webp"); if (File.Exists(imagePath)) { this.BackgroundImage = Image.FromFile(imagePath); }
         }
 
         private void button_kilepes_Click(object sender, EventArgs e)
